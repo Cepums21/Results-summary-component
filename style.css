@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'HankenGrotesk';
+    font-display: swap;
+    font-weight: 100 900;
+    src: url('assets/fonts/HankenGrotesk-VariableFont_wght.ttf') 
+         format('truetype');
+  }
+  
+:root {
+--gradient-primary: linear-gradient(
+      var(--clr-primary-400), 
+      var(--clr-secondary-400));
+
+  --gradient-to-transparent: linear-gradient(
+      var(--clr-primary-500),
+      hsl(var(--clr-secondary-hsl-500), 0));
+}
